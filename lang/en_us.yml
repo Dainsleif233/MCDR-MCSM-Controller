@@ -1,0 +1,26 @@
+mcsm_controller:
+  cmd:
+    welc: Welcome to MCSM Controller!
+    perm: You do not have permission to use this command!
+    root: Use !!mcsm list to list all daemon
+    open: Starting instance
+    stop: Stopping instance. If it takes too long to stop, use !!mcsm kill.
+    restart: Restarting instance. If it takes too long to stop, use !!mcsm kill.
+    kill: Killing instance
+    list:
+      root: "There are {} daemons"
+      daemon: "[{}] Instance：{}/{}"
+      notfound: "Unknown daemon"
+      instance:
+        root: "There are {1} instances in {0}"
+        busy: Instance is busy
+        stop: Instance is stopped
+        stopping: Instance is stopping
+        openning: Instance is starting
+        running: Instance is running
+        notfound: "Unknown instance"
+        msg:
+          open: Start instance
+          kill: Kill instance
+          stop: Stop instance
+          restart: Restart instance

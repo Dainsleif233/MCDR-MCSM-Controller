@@ -1,0 +1,14 @@
+{
+    "id": "mcsm_controller",
+    "version": "1.0.0",
+    "name": "MCSM Controller",
+    "description": {
+        "en_us": "Use in-game commands to control MCSManager Instance.",
+        "zh_cn": "使用游戏内命令行控制MCSM实例."
+    },
+    "author": "Dainsleif",
+    "link": "https://github.com/Dainsleif233/MCDR-mcsm-controller",
+    "dependencies": {
+        "mcdreforged": ">=2.0.0-alpha.1"
+    }
+}

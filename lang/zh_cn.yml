@@ -1,0 +1,26 @@
+mcsm_controller:
+  cmd:
+    welc: 欢迎使用 MCSM Controller！
+    perm: 你没有权限使用这个命令！
+    root: 使用!!mcsm list列出所有节点
+    open: 开启实例中
+    stop: 关闭实例中，若长时间未关闭，请使用!!mcsm kill
+    restart: 重启实例中，若长时间未关闭，请使用!!mcsm kill
+    kill: 强制终止实例中
+    list:
+      root: "共{}个节点"
+      daemon: "[{}] 实例：{}/{}"
+      notfound: "未知节点"
+      instance:
+        root: "节点{0}共{1}个实例"
+        busy: 实例忙碌中
+        stop: 实例未运行
+        stopping: 实例关闭中
+        openning: 实例开启中
+        running: 实例运行中
+        notfound: "未知实例"
+        msg:
+          open: 开启实例
+          kill: 终止实例
+          stop: 关闭实例
+          restart: 重启实例
