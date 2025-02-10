@@ -1,8 +1,8 @@
 # MCDR-MCSM-Controller
 
-Use in-game commands to control MCSManager Instance.
+Use commands to control MCSManager Instance.
 
-使用游戏内命令行控制MCSM实例.
+使用命令控制MCSM实例.
 
 目前支持实例的状态查询、开启、重启、停止、强制终止
 

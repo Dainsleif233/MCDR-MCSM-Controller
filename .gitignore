@@ -167,3 +167,5 @@ cython_debug/
 .github/outputs/
 /report.md
 /reply.md
+
+*.mcdr
