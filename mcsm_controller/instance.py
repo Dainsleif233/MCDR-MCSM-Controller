@@ -33,7 +33,7 @@ def get_instances(daemon_name: str, page: int):
     daemons = get_daemons()
     if daemons is None:
         return None
-    daemon = next((daemon for daemon in daemons if daemon_name == daemon_name), None)
+    daemon = next((daemon for daemon in daemons if daemon_name == daemon['name']), None)
     if daemon is None:
         return None
 
